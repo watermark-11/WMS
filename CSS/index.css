@@ -1,0 +1,119 @@
+.section2 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border: 1rem solid;
+}
+
+
+
+
+.section3 {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    font-size: .75rem;
+    text-align: justify;
+    line-height: 1rem;
+    word-wrap: normal;
+}
+
+.card-body {
+    padding-right: 5rem;
+}
+
+.card1 {
+    background-image: url("../img/Consumer Behaviour.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+    
+}
+
+.card2 {
+    background-image: url("../img/Promotion Responce.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card3  {
+    background-image: url("../img/New Product Introduction.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+    
+
+}
+
+.card4 {
+    background-image: url("../img/Brand Loyality.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+    
+
+}
+
+.card5 {
+    background-image: url("../img/Competitor Behaviour.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+    
+
+}
+
+.card6 {
+    background-image: url("../img/Market Behaviour.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+    
+
+}
+
+hr {
+    height: 2px;
+}
+
+.section3 h5, h3 {
+    color: rgb(15, 55, 95);
+}
+
+
+
+.card {
+    margin-bottom: 1rem;
+}
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+
+.section4 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+.section5 {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.section5 img {
+    width: 100px;
+    height: 50px;
+}
+
+.section5 h5 {
+    color: rgb(15, 55, 95);
+}
+
+.service {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    
+    /* height: 100vh; */
+}

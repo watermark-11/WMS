@@ -1,0 +1,118 @@
+
+
+
+.myslide img {
+    height: 100vh;
+}
+
+li {
+    list-style: none;
+}
+
+  
+  .pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing hr {
+    margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+  
+  .pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+  
+  .pricing ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .pricing .text-muted {
+    opacity: 0.7;
+  }
+  
+  .pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+  }
+
+  
+
+  .footer li {
+    color: white;
+    padding-bottom: 1rem;
+  }
+  
+  li {
+    margin-bottom: 10px;
+}
+
+.link1 {
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+}
+
+.link1::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background:white;
+    transition: width .3s;
+}
+
+.link1:hover::after {
+    width: 100%;
+    /* transition: width .3s; */
+}
+
+
+
+
+
+
+
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  }
+
+
+
+#comingsoon {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/4.jpg")  center;
+    background-size: cover;
+    /* position: relative; */
+    margin-top: -40px;
+    z-index: 9;
+}
